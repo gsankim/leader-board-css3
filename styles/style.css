@@ -94,17 +94,20 @@ main{
         
     } 
    .course .course-banner img{
-       width: 224px;
-       height: 104px;
+    width: 224px;
+    height: 104px;
        
    }
+   .course-duration{
+    align-items: flex-end;       
+}
    .course-info{
-       display: flex;
-       align-items: center;
-       justify-content: space-between;
+    display: center;
+    align-items: center;
+    justify-content: space-between;
    }
    .fa-star{
-    font-size: 12px;
+    font-size: 10px;
   }
    .fa-star.filled{
        color: #ffc014;
